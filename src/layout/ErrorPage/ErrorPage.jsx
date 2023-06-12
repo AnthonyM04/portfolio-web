@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export default function ErrorPage() {
     return(
-        <Container>
+        <Container className="justify-content-center">
             <Row>
                 <Col>
                     <h2>404</h2>

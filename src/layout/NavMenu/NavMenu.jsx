@@ -1,5 +1,6 @@
-import { Navbar, Container, Nav, Button } from "react-bootstrap"
-import { Link } from "react-router-dom"
+import { Navbar, Container, Nav, Button } from "react-bootstrap";
+import { Link } from "react-router-dom";
+import resume from "../../resume.pdf";
 
 export default function NavMenu() {
     return(
@@ -13,7 +14,7 @@ export default function NavMenu() {
               <Nav.Link href="#work">work</Nav.Link>
               <Nav.Link href="#skills">skills</Nav.Link>
               <Nav.Link href="#contact">contact</Nav.Link>
-              <Button href="../../pdf/resume.pdf" target="_blank">Resume</Button>
+              <Button href={resume} rel="noreferrer" target="_blank">Resumé</Button>
             </Nav>
           </Navbar.Collapse>
         </Container>

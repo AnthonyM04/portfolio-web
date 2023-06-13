@@ -1,12 +1,21 @@
-.navmenu {
+.navbar {
+
+    & img {
+        width: 50px;
+        }
+}
+
+a.nav-link {
+    display: flex;
     justify-content: space-around;
-    color: red;
 }
 
-.navmenu-text {
-    color: red;
+navbar-toggler {
+    border: 10px solid gray;
 }
 
-.navbar img {
-    width: 50px;
+.navbar-nav {
+    background-color: rgb(73, 73, 73);
+    border-radius: 15px;
+    padding: 10px;
 }

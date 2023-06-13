@@ -22,10 +22,10 @@ export default function Hero() {
   return (
     <main>
       <Container fluid className="">
-        <Row className="d-flex align-items-center bg-intro">
+        <Row className="d-flex align-items-center bg-intro p-4">
           <Col 
             md={{ span: 5, offset: 0 }} 
-            lg={{ span: 3, offset: 2 }} 
+            lg={{ span: 5, offset: 0 }} 
             xl={{ span: 2, offset: 2 }} 
             className="logo-trick">
             <div className="easter-egg">
@@ -39,17 +39,18 @@ export default function Hero() {
 
           <Col 
             md={{ span: 6, offset: 1 }} 
-            lg={{ span: 3, offset: 1 }} 
+            lg={{ span: 6, offset: 1 }} 
             xl={{ span: 6, offset: 2 }}
-            className="bg-intro-text" >
+            className="bg-intro-text">
               <h1>Hello, my name is Anthony Murphy!</h1>
-              <p>I'm a software Engineer based in South Florida! I'm a fullstack developer but I especially love frontend work! When I'm not coding, I'm looking at the latest fashion shows and gaming.</p>
+              <p>I'm a software Engineer based in South Florida! I'm a fullstack developer but I especially love frontend work! When I'm not coding, I'm looking into the latest of fashion and playing games.</p>
               <HashLink
                   to="/#portfolio"
                   className="button1">
                   <Button
                     className="button-1"
-                      text='See Portfolio'>my works
+                      text='See Portfolio'>
+                        my works
                   </Button>
                 </HashLink>
           </Col>

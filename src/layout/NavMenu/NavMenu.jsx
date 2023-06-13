@@ -5,8 +5,8 @@ import resume from "../../resume.pdf";
 
 export default function NavMenu() {
     return(
-        <Navbar className="navmenu" expand="lg">
-        <Container className="navmenu-text">
+        <Navbar bg="dark" variant="dark" expand="lg" sticky="top">
+        <Container className="navmenu-text" fluid>
           <Navbar.Brand as={Link} to="/"><img src={'./img/icons/Favicon.png'}></img></Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">

@@ -1,6 +1,9 @@
 @use './index.scss';
 @use '../layout/Footer/footer';
 @use '../layout/NavMenu/navmenu';
+@use '../layout/About/about';
+@use '../layout/Hero/hero';
+@use './Button.scss';
 
 .App {
   text-align: center;
@@ -19,7 +22,6 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .App-link {

@@ -1,5 +1,5 @@
 import Footer from "./Footer/Footer";
-import NavMenu from "./NavMenu/Navmenu";
+import NavMenu from "./NavMenu/NavMenu";
 
 export default function AppLayout({children}) {
     return(

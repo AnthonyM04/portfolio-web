@@ -1,8 +1,13 @@
 @use './index.scss';
+
+// Layouts
 @use '../layout/Footer/footer';
 @use '../layout/NavMenu/navmenu';
 @use '../layout/About/about';
 @use '../layout/Hero/hero';
+@use '../layout/3Things/threethings';
+
+// Misc
 @use './Button.scss';
 @use './Fonts.scss';
 
@@ -27,4 +32,14 @@
 
 .App-link {
   color: #61dafb;
+}
+
+
+.sub-header {
+  font-size: 50px;
+}
+
+.each-element-container {
+  border-top: 10px solid;
+  border-color: #e4d5e6;
 }

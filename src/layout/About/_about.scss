@@ -1,13 +1,29 @@
-.about {
+#about {
     padding-top: 100px;
+    color: black;
 }
 
-.card {
+.about-header {
+  font-size: 50px;
+  padding-bottom: 25px;
+}
+
+.about-portrait {
+  border-radius: 10px;
+  padding-top: 2px;
+  width: 175px;
+  height: auto;
+}
+
+// circles 
+
+.profile-card {
     width: 190px;
     height: 254px;
     transition: all 0.2s;
     position: relative;
     cursor: pointer;
+    padding-bottom: 25px;
     &:hover {
         transform: scale(1.04) rotate(1deg);
       }
@@ -15,9 +31,7 @@
   
   .card-inner {
     cursor: zoom-in;
-    width: inherit;
     height: inherit;
-    background: rgba(255,255,255,.05);
     box-shadow: 0 0 10px rgba(0,0,0,0.25);
     backdrop-filter: blur(10px);
     border-radius: 8px;
@@ -38,7 +52,7 @@
   }
   
   .circle:nth-child(2) {
-    background: radial-gradient(#e67833, #ef9953);
+    background: radial-gradient(#d85300, #ff7e30);
     width: 75px;
     height: 75px;
     bottom: -25px;

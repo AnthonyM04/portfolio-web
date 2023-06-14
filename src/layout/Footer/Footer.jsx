@@ -1,5 +1,4 @@
 import { Container, Row, Col } from "../../util/Bootstrap.jsx";
-import { HashLink } from "react-router-hash-link";
 import { Github } from "react-bootstrap-icons";
 
 export default function Footer() {
@@ -8,8 +7,7 @@ export default function Footer() {
 
   return (
     <footer>
-      <Container id="portfolio" className="p-5" >
-
+      <Container id="footer" className="p-5" >
         <Row>
           <Col>
           </Col>

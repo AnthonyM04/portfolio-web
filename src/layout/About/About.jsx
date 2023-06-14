@@ -5,22 +5,20 @@ export default function About() {
     <Container fluid id="about" className="p-5 about">
       <Row>
         <Col>
-          <h2 className="text-center headers">
-            <span>About</span>
+          <h2 className="text-center about-header">
+              About
           </h2>
         </Col>
       </Row>
 
       <Row className="justify-content-center">
-        <Col xs={8} md={6} lg={5} xl={3} className="card">
-            <div className="circle"></div>
-            <div className="circle"></div>
-            <div className="card-inner"></div>
-          <Image src={`${process.env.PUBLIC_URL}/img/Anthony.png`} alt="Anthony Murphy" className="border-style mb-4" fluid/>
+        <Col xs={8} md={6} lg={5} xl={3} className="profile-card">
+            <div className="circle"/>
+            <div className="circle"/>
+              <img src={`${process.env.PUBLIC_URL}/img/Anthony.png`} alt="Anthony Murphy" className="about-portrait"/>
         </Col>
 
         <Col lg={5} className="about-text">
-          <br />
           <p>p1</p>
           <p>p2</p>
           <p>p3</p>

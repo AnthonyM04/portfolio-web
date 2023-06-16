@@ -1,4 +1,4 @@
-import {Carousel, Container, Row, Col } from "../../util/Bootstrap.jsx";
+import { Carousel } from "../../util/Bootstrap.jsx";
 
 
 export default function Projects() {

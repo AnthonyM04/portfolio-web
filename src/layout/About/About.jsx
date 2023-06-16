@@ -1,4 +1,4 @@
-import { Container, Row, Col, Image, Button } from "../../util/Bootstrap.jsx";
+import { Container, Row, Col, Button } from "../../util/Bootstrap.jsx";
 
 export default function About() {
   return (
@@ -49,3 +49,4 @@ export default function About() {
       </Row>
     </Container>
   );
+}

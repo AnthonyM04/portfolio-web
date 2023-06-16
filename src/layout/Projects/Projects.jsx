@@ -43,4 +43,4 @@ export default function Projects() {
         </Carousel.Item>
       </Carousel>
     )
-}
+} 

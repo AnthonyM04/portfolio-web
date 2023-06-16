@@ -32,9 +32,9 @@ export default function About() {
           className="about-text"
         >
           <br/>
-          <p>p1</p>
-          <p>p2</p>
-          <p>p3</p>
+          <p>I grew up in New Hampshire, graduated high school and quickly moved to Florida to start my career. Ever since I was young, I loved computer games and I loved how the internet felt like the Wild West! I would often watch behind the scenes on how my favorite games were made and I would inspect the code on some of my favorite websites and try to understand the logic.</p>
+          <p>In my last year of high school, I took a Python class and something clicked for that that hadn't in any other class that I've ever taken before. When I came to Florida, I started looking around for Coding Programs and then I found out about Boca Code! Taking their 10 week program was the hardest thing but also the best thing that has happened in my life.</p>
+          <p>Now, I'm looking for a career as a fullstack developer, and I'm excited to see what happens next!</p>
         </Col>
       </Row>
 
@@ -49,4 +49,3 @@ export default function About() {
       </Row>
     </Container>
   );
-}

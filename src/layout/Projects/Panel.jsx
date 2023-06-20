@@ -1,34 +1,22 @@
-import { useState } from "react";
-import { Container, Col, Image, Modal, Row } from "react-bootstrap";
+import { Col, Card } from "../../util/Bootstrap";
 
-export default function Panel( {element: {title, content, image}} ) {
-    const [show, setShow] = useState(false);
-    const toggleShow = () => setShow(!show);
-
-    return(
-        <Col xs={10} md={6} lg={4} xl={3}>
-            <div className="" onClick={toggleShow}>
-                <Image fluid src={image}/>
-                <h3>{title}</h3>
-            </div>
-
-            <Modal show={show} onHide={toggleShow} size="lg" centered>
-                <Modal.Body>
-                    <Container>
-                        <Row>
-                            <Col xs={12} md={6}>
-                                <Image src={image} fluid/>
-                            </Col>
-
-                            <Col xs={12} md={6}>
-                                <h3>{title}</h3>
-                                <p>{content}</p>
-                            </Col>
-
-                        </Row>
-                </Container>
-                </Modal.Body>
-            </Modal>
-        </Col>
-    );
+export default function Panel ({ data:{id, name, about, website, cover} }) {
+  
+  return (
+    <Col key={id} md={10} lg={6} xl={4}>
+      <Card className="portfolio-panel button-effect ">
+        <figure>
+          <a href={website} 
+             target="_blank"
+             rel="noreferrer"><Card.Img
+            src={`${process.env.PUBLIC_URL}/img/${cover}`} /></a>
+        </figure>
+        
+        <div className="content">
+          <h3>{name}</h3>
+          <p>{about}</p>
+        </div>
+      </Card>
+    </Col>
+  );
 }

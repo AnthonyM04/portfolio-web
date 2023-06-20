@@ -43,7 +43,7 @@ export default function Hero() {
             xl={{ span: 6, offset: 2 }}
             className="bg-intro-text">
               <h1>Hello, my name is Anthony Murphy!</h1>
-              <p>I'm a software Engineer based in South Florida! I'm a fullstack developer but I especially love frontend work! When I'm not coding, I'm looking into the latest of fashion and playing.</p>
+              <p>I'm a software Engineer based in South Florida! I'm a fullstack developer but I especially love frontend work! When I'm not coding, I'm looking into the latest of fashion and playing video games.</p>
               <HashLink
                   to="/#portfolio"
                   className="button1">

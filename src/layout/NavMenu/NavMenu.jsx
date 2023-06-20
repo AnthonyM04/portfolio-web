@@ -9,8 +9,8 @@ export default function NavMenu() {
         <Container className="navmenu-text" fluid>
           <Navbar.Brand as={Link} to="/"><img src={'./img/icons/Favicon.png'}></img></Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto">
+          <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
+            <Nav>
               <Nav.Link as={HashLink} to="#about">about</Nav.Link>
               <Nav.Link as={HashLink} to="#work">work</Nav.Link>
               <Nav.Link as={HashLink} to="#skills">skills</Nav.Link>

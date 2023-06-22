@@ -5,25 +5,29 @@ import data from "../../data/projects.json";
 export default function Portfolio () {
 
   return (
-    <Container fluid id="portfolio" className="p-5">
-      <Row>
-        <Col>
-          <h2 className="text-center">Portfolio <span>Where creativity and code collide.</span></h2>
-        </Col>
-      </Row>
+    <section id="works">
+      <Container className="my-5 each-element-container">
+        <Row>
+          <Col className="text-center">
+            <h4  className="headers">Works</h4>
+            <span>Where creativity and code collide.</span>
+            <br/>
+          </Col>
+        </Row>
 
-      <Row className="px-xs-0 px-md-3 px-lg-4 px-xl-5 g-5 justify-content-center">
-        {
-          data.map( 
-            (element) => {
-              return element
+        <Row className="px-xs-0 px-md-3 px-lg-4 px-xl-5 g-5 justify-content-center">
+          {
+            data.map( 
+              (element) => {
+                return element
                 ? <Panel 
-                    key={element.id}
-                    data={element} />
+                key={element.id}
+                data={element} />
                 : <p>Loading</p>
-            }).sort().reverse()
-        }                
-      </Row>
-    </Container>
+              }).sort()
+            }
+        </Row>
+      </Container>
+    </section>
   );
 }

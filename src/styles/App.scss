@@ -6,6 +6,7 @@
 @use '../layout/About/about';
 @use '../layout/Hero/hero';
 @use '../layout/3Things/threethings';
+@use '../layout/Portfolio/portfolio';
 
 // Misc
 @use './Button.scss';
@@ -42,4 +43,6 @@
 .each-element-container {
   border-top: 10px solid;
   border-color: #e4d5e6;
+  margin-left: auto;
+  margin-right: auto;
 }

@@ -1,0 +1,29 @@
+.card {
+    border-radius: 5px 5px 30px 30px;
+    background: #e0e0e0;
+    box-shadow: 15px 15px 30px #bebebe,
+               -15px -15px 30px #ffffff;
+    & img {
+        border-radius: 0 0 30px 30px;
+    }
+
+    & h5{
+        text-align: center;
+    }
+  }
+
+// MODAL 
+
+.modal{
+    background-color: rgba(54, 2, 84, 0.337);
+
+    & img {
+        border-radius: 5px;
+    }
+
+    & .modal-header {
+        display: block;
+        text-align: center;
+    }
+
+}    

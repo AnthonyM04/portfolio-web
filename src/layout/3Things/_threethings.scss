@@ -2,15 +2,20 @@
   background-color: transparent;
   font-family: "Chivo Mono", monospace;
   width: 400px;
-  height: 500px;
-  margin: 0 auto;
+  height: 400px;
   perspective: 1000px;
-  font-family: sans-serif;
+  padding: 10px;
+}
+
+.qf-img {
+  width: 20vw;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 33px;
 }
 
 .title {
   font-size: 1.5em;
-  font-weight: 900;
   text-align: center;
   margin: 0;
   font-family: "Chivo Mono", monospace;
@@ -46,10 +51,6 @@
 .flip-card-front {
   background: black;
   color: rgb(255, 255, 255);
-
-  & img {
-    padding: 33px;
-  }
 }
 
 .flip-card-back {
@@ -58,6 +59,12 @@
   color: white;
   transform: rotateY(180deg);
   text-align: left;
+  font-size: 10px;
+
+  & .title {
+    font-size: 15px;
+    font-weight: 700;
+  }
 }
 
 .flip-card-text {

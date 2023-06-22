@@ -23,7 +23,7 @@ export default function Hero() {
     <main>
       <Container fluid className="">
         <Row className="d-flex align-items-center bg-intro p-4">
-          <Col 
+          <Col
             md={{ span: 5, offset: 0 }} 
             lg={{ span: 5, offset: 0 }} 
             xl={{ span: 3, offset: 1 }} 
@@ -31,7 +31,6 @@ export default function Hero() {
             <div className="easter-egg">
             <Image src={`${process.env.PUBLIC_URL}/img/icons/${introArray[introImage]}`}
               alt="Anthony Murphy"
-              className=""
               fluid
               onClick={() => setIntroImage(introImage+1)} />
               </div>
@@ -45,10 +44,8 @@ export default function Hero() {
               <h1>Hello, my name is Anthony Murphy!</h1>
               <p>I'm a software Engineer based in South Florida! I'm a fullstack developer but I especially love frontend work! When I'm not coding, I'm looking into the latest of fashion and playing video games.</p>
               <HashLink
-                  to="/#portfolio"
-                  className="button1">
+                  to="/#portfolio">
                   <Button
-                    className="button-1"
                       text='See Portfolio'>
                         my works
                   </Button>

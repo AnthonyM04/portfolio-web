@@ -7,8 +7,8 @@
   padding: 10px;
 }
 
-.qf-img {
-  width: 20vw;
+.flip-card-image {
+  width: 300px;
   margin-left: auto;
   margin-right: auto;
   padding: 33px;
@@ -59,7 +59,7 @@
   color: white;
   transform: rotateY(180deg);
   text-align: left;
-  font-size: 10px;
+  font-size: 12px;
 
   & .title {
     font-size: 15px;
@@ -71,6 +71,6 @@
   margin: 10px 50px;
 }
 
-.card-sub-title {
-  color: rgba(20, 20, 95, 0.5);
+.three-things-card {
+  margin: 0;
 }

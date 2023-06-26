@@ -1,20 +1,20 @@
 [
-    {
-        "title": "Diverse Skillset",
-        "description": "With my background in software engineering and graphic design, I offer a unique skill set that combines technical expertise with artistic creativity. This allows me to approach UX/UI design from a holistic perspective, considering both the technical feasibility and visual appeal of the interfaces I create.",
-        "alt": "photoshop",
-        "icon": "designed.svg"
-    },
-    {
-        "title": "Problem Solver",
-        "description": "As a brand new 18 year old software engineerer, I feel like I could offer a unique / fresh perspective to problems. I am a very analytical thinker and I love to solve problems. I am also very passionate about learning new things and I am always looking for ways to improve myself.",
-        "alt": "lightbulb",
-        "icon": "shocker.svg"
-    },
-    {
-        "title": "Cooperativer",
-        "description":"As a software developer, I am a great team player because I understand the importance of collaboration in achieving our common goals. I actively participate in team discussions, listen to other team members' opinions, and provide constructive feedback to help improve our team's performance!",
-        "alt": "🫂 2 people hugging",
-        "icon": "hugs.svg"
-    }
+  {
+    "title": "Diverse Skillset",
+    "description": "With my background in software engineering and graphic design, I offer a unique skill set that combines technical expertise with artistic creativity. This allows me to approach UX/UI design from a holistic perspective, considering both the technical feasibility and visual appeal of the interfaces I create.",
+    "alt": "photoshop",
+    "icon": "designed.svg"
+  },
+  {
+    "title": "Problem Solver",
+    "description": "As a brand new 18 year old software engineerer, I feel like I could offer a unique / fresh perspective to problems. I am a very analytical thinker and I love to solve problems. I am also very passionate about learning new things and I am always looking for ways to improve myself.",
+    "alt": "lightbulb",
+    "icon": "shocker.svg"
+  },
+  {
+    "title": "Cooperativer",
+    "description": "As a software developer, I am a great team player because I understand the importance of collaboration in achieving our common goals. I actively participate in team discussions, listen to other team members' opinions, and provide constructive feedback to help improve our team's performance!",
+    "alt": "🫂 2 people hugging",
+    "icon": "hugs.svg"
+  }
 ]

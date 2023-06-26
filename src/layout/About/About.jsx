@@ -1,3 +1,4 @@
+import { Linkedin } from "react-bootstrap-icons";
 import { Container, Row, Col, Button } from "../../util/Bootstrap.jsx";
 
 export default function About() {
@@ -14,10 +15,9 @@ export default function About() {
           md={{ span: 5, offset: 0 }}
           lg={{ span: 5, offset: 0 }}
           xl={{ span: 4, offset: 1 }}
-          className="profile-card"
-        >
-          <div className="circle" />
-          <div className="circle" />
+          className="profile-card">
+          <div className="profile-circle" />
+          <div className="profile-circle" />
           <img
             src={`${process.env.PUBLIC_URL}/img/Anthony.png`}
             alt="Anthony Murphy"
@@ -44,7 +44,7 @@ export default function About() {
             href="https://www.linkedin.com/in/anthony-murphy04"
             target="_blank"
             rel="noreferrer"
-          >Socials</Button>
+          ><Linkedin/></Button>
         </Col>
       </Row>
     </Container>

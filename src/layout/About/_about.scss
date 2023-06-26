@@ -32,36 +32,36 @@
     border-radius: 8px;
   }
   
-  .circle {
+  .profile-circle {
+    animation: move-up1 2s ease-in infinite alternate-reverse;
     width: 100px;
     height: 100px;
-    background: radial-gradient(#b0e633, #53ef7d);
     border-radius: 50%;
     position: absolute;
-    animation: move-up6 2s ease-in infinite alternate-reverse;
   }
-  
-  .circle:nth-child(1) {
+
+  .profile-circle:nth-child(1) {
+    background: radial-gradient(#b0e633, #53ef7d);
     top: -25px;
     left: -25px;
   }
-  
-  .circle:nth-child(2) {
+ 
+  .profile-circle:nth-child(2) {
     background: radial-gradient(#d85300, #ff7e30);
     width: 75px;
     height: 75px;
     bottom: -25px;
     right: -25px;
-    animation-name: move-down1;
+    animation-name: move-down2;
   }
-  
-  @keyframes move-up6 {
+
+  @keyframes move-up1 {
     to {
       transform: translateY(-10px);
     }
   }
   
-@keyframes move-down1 {
+@keyframes move-down2 {
     to {
         transform: translateY(10px);
         }

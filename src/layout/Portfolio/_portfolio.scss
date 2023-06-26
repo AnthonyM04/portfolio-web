@@ -1,10 +1,16 @@
-.card {
-    border-radius: 5px 5px 30px 30px;
-    background: #e0e0e0;
+.portfolio-card {
+    border-radius: 5px;
+    background: #000000;
     box-shadow: 15px 15px 30px #bebebe,
                -15px -15px 30px #ffffff;
     & img {
-        border-radius: 0 0 30px 30px;
+        border-radius: 15px;
+        padding: 10px;
+    }
+
+    & .portfolio-card:hover {
+        transform:rotate(1deg) scale(1.01);
+        transition: 0.5s;
     }
 
     & h5{
@@ -15,7 +21,7 @@
 // MODAL 
 
 .modal{
-    background-color: rgba(54, 2, 84, 0.337);
+    background-color: rgba(54, 2, 84, 0.34);
 
     & img {
         border-radius: 5px;

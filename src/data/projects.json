@@ -1,52 +1,52 @@
 [
-    {
-      "id": 1,
-      "name": "Chromesthesia",
-      "about": "In the final weeks of Boca Code, we are assigned a final project to make a website. My website is a music reviewing site.",
-      "website": "https://chromesthesia-world.web.app/",
-      "image": "chrome.webp",
-      "year": "2023",
-      "skill": ["HTML", "CSS", "React.js", "JavaScript"]
-    },
-  
-    {
-      "id": 2,
-      "name": "Beau Cafe ",
-      "about": "On the fourth week of Boca Code, we would each make a coffee website. It would pull the coffee from an example api!",
-      "website": "https://amurphy-coffee-react.web.app/",
-      "image": "beau.webp",
-      "year": "2023",
-      "skill": ["HTML", "JavaScript", "CSS"]
-    },
-  
-    {
-      "id": 3,
-      "name": "Cogito Ergo Sum",
-      "about": "This is a mini profile page created using React.js and Bootstrap based on Rene Descartes' famous philosophical statement \"Ergo Cogito Sum\" which means \"I think, therefore I am.\"",
-      "website": "https://jsohndata.github.io/cogito-ergo-sum/",
-      "image": "port-cogito.webp",
-      "year": "2023",
-      "skill": ["React.js"]
-    },
-  
-    {
-      "id": 4,
-      "name": "Cozy Counter",
-      "about": "Cozy Counter is a React.js app that showcases the useState() hook for BocaCode C-10. It creates a basic counter that can be incremented or decremented with user input, demonstrating how the hook manages state in functional components.",
-      "website": "https://jsohndata.github.io/cozy-counter/",
-      "image": "port-cozycounter.webp",
-      "year": "2023",
-      "skill": ["React.js"]
-    },
-  
-    {
-      "id": 5,
-      "name": "Quizz App",
-      "about": "A quiz application designed for studying about the usage of useState() and props in React.js.",
-      "website": "https://jsohndata.github.io/quizz-app",
-      "image": "port-quizz-app.webp",
-      "year": "2023",
-      "skill": ["React.js"]
-    }
-  ]
-  
+  {
+    "id": 1,
+    "name": "Chromesthesia",
+    "about": "In the final weeks of Boca Code, we are assigned a final project to make a website. My website is a music reviewing site.",
+    "website": "https://chromesthesia-world.web.app/",
+    "repo": "https://github.com/AnthonyM04/frontend-final-project",
+    "image": "chrome.webp",
+    "year": "2023",
+    "skill": ["HTML", "CSS", "React.js", "JavaScript"]
+  },
+  {
+    "id": 2,
+    "name": "Beau Cafe ",
+    "about": "On the fourth week of Boca Code, we would each make a coffee website. It would pull the coffee from an example api!",
+    "website": "https://amurphy-coffee-react.web.app/",
+    "repo": "https://github.com/AnthonyM04/beau-cafe/",
+    "image": "beau.webp",
+    "year": "2023",
+    "skill": ["HTML", "JavaScript", "CSS"]
+  },
+  {
+    "id": 3,
+    "name": "Cogito Ergo Sum",
+    "about": "This is a mini profile page created using React.js and Bootstrap based on Rene Descartes' famous philosophical statement \"Ergo Cogito Sum\" which means \"I think, therefore I am.\"",
+    "website": "https://jsohndata.github.io/cogito-ergo-sum/",
+    "repo": "https://github.com/jsohndata/cogito-ergo-sum/",
+    "image": "port-cogito.webp",
+    "year": "2023",
+    "skill": ["React.js"]
+  },
+  {
+    "id": 4,
+    "name": "Cozy Counter",
+    "about": "Cozy Counter is a React.js app that showcases the useState() hook for BocaCode C-10. It creates a basic counter that can be incremented or decremented with user input, demonstrating how the hook manages state in functional components.",
+    "website": "https://jsohndata.github.io/cozy-counter/",
+    "repo": "https://github.com/jsohndata/cogito-ergo-sum/",
+    "image": "port-cozycounter.webp",
+    "year": "2023",
+    "skill": ["React.js"]
+  },
+  {
+    "id": 5,
+    "name": "Quizz App",
+    "about": "A quiz application designed for studying about the usage of useState() and props in React.js.",
+    "website": "https://jsohndata.github.io/quizz-app",
+    "repo": "https://github.com/jsohndata/cogito-ergo-sum/",
+    "image": "port-quizz-app.webp",
+    "year": "2023",
+    "skill": ["React.js"]
+  }
+]

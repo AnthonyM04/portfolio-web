@@ -13,7 +13,7 @@ export default function NavMenu() {
               <Nav.Link as={HashLink} to="#about">about</Nav.Link>
               <Nav.Link as={HashLink} to="#works">work</Nav.Link>
               <Nav.Link as={HashLink} to="#skills">skills</Nav.Link>
-              <Nav.Link as={HashLink} to="#contact">contact</Nav.Link>
+              {/* <Nav.Link as={HashLink} to="#contact">contact</Nav.Link> */}
               <Button href={resume} rel="noreferrer" target="_blank">Resumé</Button>
             </Nav>
           </Navbar.Collapse>

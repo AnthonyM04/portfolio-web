@@ -14,6 +14,7 @@ export default function Portfolio() {
             </div>
           </Col>
         </Row>
+            <br/>
         <Row className="px-xs-0 px-md-3 px-lg-4 px-xl-5 g-5 justify-content-center">
           {data
             .map((element) => {

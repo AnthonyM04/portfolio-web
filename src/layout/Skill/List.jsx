@@ -13,9 +13,10 @@ export default function Skill() {
         <Row>
           <Col className="text-center">
             <h5 className="headers">Skills</h5>
-              <span className="sub-header">Software, programming languages and more that I have experience with:</span>
+              <span className="skill-sub-header">Software, programming languages and more that I have experience with:</span>
           </Col>
         </Row>
+        <br/>
 
         <Row className="justify-content-center">
           <Col md={3} className="text-center">

@@ -1,8 +1,19 @@
 footer {
+    padding: 50px;
     text-align: center;
     background-color: black;
     color: white;
-    border: black 2px solid;
-    // color: white;
-    margin: 0;
+    border-top: rgb(255, 255, 255) 25px solid;
+}
+
+.footer-icons {
+    & svg {
+        background-color: black;
+        color: rgb(255, 255, 255);
+    }
+    & svg:hover {
+        transition: 0.5s;
+        color: rgb(30, 0, 121);
+    }
+
 }

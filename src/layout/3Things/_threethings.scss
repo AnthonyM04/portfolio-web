@@ -54,12 +54,12 @@
 }
 
 .flip-card-back {
-  background: rgb(202,211,252);
-  background: linear-gradient(180deg, rgba(200,210,250,1) 15%, rgba(152,167,255,1) 100%);
+  background: rgb(19, 47, 174);
+  background: linear-gradient(180deg, rgb(109, 139, 255) 15%, rgb(58, 88, 255) 100%);
   color: white;
   transform: rotateY(180deg);
   text-align: left;
-  font-size: 12px;
+  font-size: 13px;
 
   & .title {
     font-size: 15px;

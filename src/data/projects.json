@@ -18,5 +18,15 @@
     "image": "beau.webp",
     "year": "2023",
     "skill": ["HTML", "JavaScript", "CSS"]
+  },
+  {
+    "id": 3,
+    "name": "My Movie Database",
+    "about": "A movie database pulling from api.sampleapis.com/movies, my first real project with NextJS and Tailwind!",
+    "website": "https://itsmymoviedatabase.web.app/",
+    "repo": "https://github.com/AnthonyM04/my-movie-database",
+    "image": "mmdb.webp",
+    "year": "2023",
+    "skill": ["NextJS", "JavaScript", "CSS"]
   }
 ]

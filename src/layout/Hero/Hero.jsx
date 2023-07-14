@@ -10,6 +10,7 @@ export default function Hero() {
     "MR ROBOT.png",
     "ENRON.png",
     "boyish.png",
+    "aazaK.png",
     "Unown.png",
     "Eva.png",
     "Cyber.png",
